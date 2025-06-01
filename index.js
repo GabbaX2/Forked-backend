@@ -9,7 +9,7 @@ const app = express();
 
 const corsOptions = {
     credentials: true,
-    origin: 'https://forked-cuisine-community.vercel.app'
+    origin: '*'
 };
 
 app.use(cors(corsOptions));
